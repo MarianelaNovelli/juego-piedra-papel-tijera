@@ -1,0 +1,96 @@
+.juego-container {
+  justify-content: center;
+  font-family: system-ui;
+  background-image: url(https://us.123rf.com/450wm/roystudio/roystudio1209/roystudio120900011/15165588-lona-naranja-textura-de-fondo.jpg);
+  background-size:contain;
+  background-repeat: repeat;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.tittle {
+  padding: 35px;
+  font-weight: bold;
+  border-radius: 15px;
+  background-color: rgba(248, 168, 48, 0.938);
+  text-align: center;
+  color: bisque;
+}
+
+.subtitle {
+  padding: 12px;
+  font-weight: normal;
+  border-radius: 15px;
+  background-color: bisque;
+  text-align: center;
+}
+
+.instructions {
+  text-align: center;
+  font-size: medium;
+  font-size: larger;
+}
+
+.instruction-icon {
+  width: 15px;
+  height: 20px;
+}
+
+.points, .resultado-parcial {
+  background-color: rgba(247, 246, 241, 0.322);
+  border-radius: 15px;
+  text-align: center;
+  font-size: medium;
+  padding: 15px;
+}
+
+.puntaje {
+  padding-bottom: 9px;
+}
+
+.juego-button {
+  font-size: large;
+  padding: 20px 25px;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.button-piedra {
+  background-color: #583f3a;
+  color: white;
+  transition: transform 0.2s;
+}
+
+.button-papel {
+  background-color: #1780e9;
+  color: white;
+  transition: transform 0.2s;
+}
+
+.button-tijera {
+  background-color: #3ab104;
+  color: white;
+  transition: transform 0.2s;
+}
+
+.jugar-button {
+  background-color: #ff3300;
+  color: white;
+  font-size: large;
+  padding: 10px 15px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.button-piedra:hover, .button-papel:hover, .button-tijera:hover, .jugar-button:hover {
+  transform: scale(1.1); 
+}
+
+.resultado-parcial {
+  margin-top: 10px;
+}
